@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+<title>SSN University</title>
+<img class="i1" src="http://ssnieee.herokuapp.com/static/assets/logo/ssn_logo_blue_transparent.png">
+</img>
+<style>
+.i1{
+  height:500;
+  width:1500;
+  border-style:solid;
+  border-color:black;
+  border-width:10px;
+  background-image: url("https://www.ssn.edu.in/wp-content/uploads/2020/04/image-2.png");
+}
+marquee{
+  text-shadow:2px 2px 5px blue;
+  font-size:40px;
+}
+.a1{
+  background-color: #2E86C1 ;
+  font-size:20px;
+  font-family: fantasy;
+  border-style:solid;
+  border-color:black;
+  border-width:10px;
+}
+.a2{
+  background-color: #2E86C1 ;
+  font-size:20px;
+  font-family: fantasy;
+  border-style:solid;
+  border-color:black;
+  border-width:10px;
+}
+a, a:visited {
+outline:none;
+color:black;
+}
+a:hover{
+background-color:powderblue;
+}
+section, footer, header, aside, nav{
+display: block;
+}
+nav{
+display:inline-block;
+margin:60px auto 45px;
+background-color:#55B460;
+box-shadow:0 1px 1px #ccc;
+border-radius:2px;
+}
+nav a{
+display:inline-block;
+padding: 18px 30px;
+color:#fff;
+font-weight:bold;
+font-size:16px;
+text-decoration:none;
+line-height:1;
+text-transform: uppercase;
+background-color:transparent;
+-webkit-transition:background-color 0.25s;
+-moz-transition:background-color 0.25s;
+transition:background-color 0.25s;
+}
+nav a:first-child{
+border-radius:2px 0 0 2px;
+}
+nav a:last-child{
+border-radius:0 2px 2px 0;
+}
+</style>
+</head>
+<body>
+  <br><br>
+<marquee>Welcome to SSN University website !</marquee><br>
+<div ng-app class="a3">
+  <center>
+  <nav class="{{active}}" ng-click="$event.preventDefault()">
+  <a href="#" class="About" ng-click="active='SSN Institutions, founded by Padma Bhushan Dr. Shiv Nadar, Chairman, HCL Technologies, stands out as a premier centre of higher learning with a mission of pursuing excellence in education and research. The institutions are named after the Chairman’s father Sri Sivasubramaniya Nadar.
+
+The institutions, with their diverse and dynamic community of students offer a distinctive combination of some of the finest graduate, undergraduate and research programs, accomplished faculty, world class facilities and a residential campus set on a sprawling 250 acres of sylvan surroundings.
+
+SSN Institutions provide a variety of stimulating environments for intellectual development, free-thinking, and personal growth, challenging its students with dynamic learning opportunities and equipping them with the skills, insights, attitudes and practical experiences that are necessary to take up responsibilities in the society.
+
+While students at SSN immerse themselves in academics, the college has a lot in store for them outside the classroom. Student life includes participation in sports, recreational, co-curricular and cultural activities. In short, at SSN, students will find an academic and social environment where everyone- from faculty members to peers helps shape their future.
+
+SSN is a home to aesthetically-designed buildings with state of the-art computer and internet facilities, modern workshops, seminar halls, auditoriums and well-stocked libraries, sports and games fields in addition to an indoor stadium with gymnasium.
+
+SSN College of Engineering has a faculty strength of 275 with a faculty student ratio of 1 faculty for every 15 students. Out of the total faculty, 201 are PhD holders, and 74 in the process of completing their PhDs.
+
+As an exemplary institution of learning, SSN follows an admission policy that strongly favours merit, even as it enables access to education for students from all strata of society through appropriate scholarships. The Institution boasts of a strong alumni network with alumni events held every year serving as a platform for past students to give back to SSN and share their experiences with its present fellow students.
+
+With so much to offer, it is only natural that students of SSN get a unique opportunity to carve a niche for themselves in their preferred field of study that would enable them to become well-rounded and discerning citizens, fully qualified for their chosen professions in the workplace.'">About</a>
+  <a href="#" class="Address" ng-click="active='Sri Sivasubramaniya Nadar College of Engineering, popularly known as SSN College of Engineering or simply SSN, is an engineering institution located in Chennai, Tamil Nadu, India.
+  It is an autonomous college affiliated with Anna University founded by Shiv Nadar.
+  It is located at SH 49A, Kalavakkam, Tamil Nadu 603110'">Address</a>
+  <a href="#" class="Contact" ng-click="active='Contact via Landline: 044 2746 9700 (or) E-Mail:ssnuniv.edu.in'">Contact</a>
+
+</nav></center>
+<p style="font-family:fantasy;background-color: #2E86C1 ;text-align: center;font-size:20px;border-style:solid;border-color:black;border-width:10px;"  ng-show="active"> <b>{{active}}</b></p>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js">
+</script>
+</div>
+<div class="a1">
+  <h2>Get to know SSN</h2>
+  <p>Sri Sivasubramaniya Nadar (SSN) Institutions, established by Dr. Shiv Nadar, Founder Chairman of HCL Technologies, stand out as a premier center of higher learning with a mission of pursuing excellence in education and research.
+    The institutions are named after the Chairman’s father, Sri Sivasubramaniya Nadar.</p>
+  <p> SSN Institutions, with their diverse and dynamic community of students offer a distinctive combination of some of the finest graduate,
+     undergraduate and research programs, accomplished faculty, world class facilities and a residential campus set on a sprawling 250 acres of sylvan surroundings.</p>
+  <p>The Institutions provide a variety of stimulating environments for intellectual development, free thinking, and personal growth, challenging its students with dynamic learning opportunities and equipping them with the skills,
+    insights, attitudes and practical experiences that are necessary to take up responsibilities in the society.</p>
+</div><br>
+<div class="a2">
+  <center><h2>College Gallery</h2></center>
+  <img src="https://s3.eu-north-1.amazonaws.com/images.free-apply.com/uni/gallery/lg/1035603400/a9723d0cf2e0b57a31cf7b66b1e92945b75a6613.jpg" height="300" width="300">
+  </img>
+  <img src="https://img.collegedekhocdn.com/media/img/institute/crawled_images/_ssncover12.jpg?tr=w-250,h-150" height="300" width="300">
+ </img>
+ <img src="https://images.shiksha.com/mediadata/images/1516359497phpDKgEQn.png" height="300" width="300">
+</img>
+<img src="https://www.shivnadarfoundation.org/sites/default/files/IMG_4569_70_71_tonemapped.jpg" height="300" width="300">
+</img>
+<img src="https://www.collegesearch.in/upload/institute/images/large/120908045812_1060.jpg" height="300" width="300">
+</img>
+<img src="https://lh6.googleusercontent.com/-ByDVghUcr4c/AAAAAAAAAAI/AAAAAAAAAFI/dZiUM3kS1Y4/s0-c-k-no-ns/photo.jpg" height="300" width="300">
+</img>
+<img src="https://qph.fs.quoracdn.net/main-qimg-615e238c125f67db2357ec84f6d0576d.webp" height="300" width="300">
+</img>
+<img src="https://www.ssn.edu.in/wp-content/uploads/2020/06/sports.jpg" height="300" width="300">
+</img>
+</div><br>
+</body>
+</html>
